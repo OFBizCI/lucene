@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  *******************************************************************************/
-package org.ofbiz.content.search;
+package org.apache.ofbiz.content.search;
 
 import java.lang.Object;
 import java.lang.String;
@@ -26,13 +26,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import org.ofbiz.base.util.Debug;
-import org.ofbiz.base.util.UtilHttp;
-import org.ofbiz.base.util.UtilValidate;
-import org.ofbiz.entity.GenericValue;
-import org.ofbiz.service.GenericServiceException;
-import org.ofbiz.service.LocalDispatcher;
-import org.ofbiz.service.ServiceUtil;
+import org.apache.ofbiz.base.util.Debug;
+import org.apache.ofbiz.base.util.UtilHttp;
+import org.apache.ofbiz.base.util.UtilValidate;
+import org.apache.ofbiz.entity.GenericValue;
+import org.apache.ofbiz.service.GenericServiceException;
+import org.apache.ofbiz.service.LocalDispatcher;
+import org.apache.ofbiz.service.ServiceUtil;
 
 /**
  * SearchEvents Class

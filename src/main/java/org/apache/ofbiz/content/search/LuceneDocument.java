@@ -16,9 +16,9 @@
  * specific language governing permissions and limitations
  * under the License.
  *******************************************************************************/
-package org.ofbiz.content.search;
+package org.apache.ofbiz.content.search;
 
-import org.ofbiz.entity.Delegator;
+import org.apache.ofbiz.entity.Delegator;
 
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.Term;

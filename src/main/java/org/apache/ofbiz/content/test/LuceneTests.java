@@ -17,7 +17,7 @@
  under the License.
  */
 
-package org.ofbiz.content.test;
+package org.apache.ofbiz.content.test;
 
 import java.io.File;
 import java.lang.Object;
@@ -36,11 +36,11 @@ import org.apache.lucene.search.Query;
 import org.apache.lucene.search.TopScoreDocCollector;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
-import org.ofbiz.content.search.SearchWorker;
-import org.ofbiz.entity.GenericValue;
-import org.ofbiz.entity.util.EntityQuery;
-import org.ofbiz.service.ServiceUtil;
-import org.ofbiz.service.testtools.OFBizTestCase;
+import org.apache.ofbiz.content.search.SearchWorker;
+import org.apache.ofbiz.entity.GenericValue;
+import org.apache.ofbiz.entity.util.EntityQuery;
+import org.apache.ofbiz.service.ServiceUtil;
+import org.apache.ofbiz.service.testtools.OFBizTestCase;
 
 public class LuceneTests extends OFBizTestCase {
 

@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  *******************************************************************************/
-package org.ofbiz.content.search;
+package org.apache.ofbiz.content.search;
 
 import java.io.File;
 import java.io.IOException;
@@ -24,8 +24,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.LinkedBlockingQueue;
 
-import org.ofbiz.base.util.Debug;
-import org.ofbiz.entity.Delegator;
+import org.apache.ofbiz.base.util.Debug;
+import org.apache.ofbiz.entity.Delegator;
 
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
